@@ -1,0 +1,1 @@
+var name = document.getElementById("login").innerText= localStorage.getItem("firstname")

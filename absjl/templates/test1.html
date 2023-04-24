@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Example</title>
+    <style>
+        body {
+          margin: 0;
+        }
+  
+        .center {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+      </style>
+      
+</head>
+<body>
+    <div class="center">
+        <form enctype="multipart/form-data">
+            <label> Sem</label><br>
+            <select name="sem_Dropdown" id="sem_dropdown" onchange="myFunction()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+          </select>
+          <select name="subject" id="subject">
+          </select>
+
+            
+
+        </form>
+        <button onclick="submit();">Submit</button>
+      </div>
+    
+    <script src="static/test1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Discuss</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="./static/main.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+	<!-- custom css file link  -->
+	<link rel="stylesheet" href="static/style.css">
+	<link rel="stylesheet" href="static/discuss.css">
+	<link rel="stylesheet" href="static/w3.css">
+	
+</head>
+<body>
+	<header class="header">
+
+		<a href="/home" class="logo"> <i class="fas fa-graduation-cap"></i> Absolute Journal </a>
+	
+		<div id="menu-btn" class="fas fa-bars"></div>
+	
+		<nav class="navbar">
+			<ul>
+				<li><a href="/home">home</a></li>
+				<li><a href="/about">about</a></li>
+				<li><a href="#">Years +</a>
+					<ul>
+						<li><a href="/year1">Year 01</a></li>
+						<li><a href="/year2">Year 02</a></li>
+						<li><a href="/year3">Year 03</a></li>
+						<li><a href="/year4">Year 04</a></li>
+					</ul>
+				</li>
+				<li><a href="#">pages +</a>
+					<ul>
+						<li><a href="/teachers">teachers</a></li>
+						<li><a href="/teachnotes">teacher's notes</a></li>
+					</ul>
+				</li>
+				<li id="login"><a href="/login1"></a></li>
+	
+			</ul>
+		</nav>
+	
+	</header>
+	<div class="w3-red"id="categories">
+		
+
+	</div>
+	<div class="w3-display-left"id="posts"></div>
+
+
+
+	<div class="w3-card w3-display-middle w3-padding w3-hide" id="makePost">
+		<label for="">Content</label>
+		<input type="text" id="content" required>
+		<input type="hidden" id="threadid">
+		<br>
+		<button class="w3-button w3-teal" onclick="createPost();"id="createpost">Post</button>
+	</div>
+	
+
+	<button class="w3-display-bottomright w3-button w3-teal w3-hide" onclick="plussignsubmit();"id="plussign">+</button>
+	<script src="static/discuss.js"></script>
+	<script src="static/home.js"></script>
+</body>
+</html>

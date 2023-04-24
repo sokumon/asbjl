@@ -1,0 +1,22 @@
+
+#categories{
+    width: 220px;
+    background-color: brown;
+}
+#posts{
+    display: inline;
+    top:130px;
+    left:230px;
+}
+
+#makepost{
+    height: 500px;
+    width: 100px;
+}
+
+#plussign{
+    font-size: 25px;
+    right: 20px;
+    bottom: 10px;
+    position:fixed;
+}
